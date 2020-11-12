@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #047aed;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  background: var(--primary-color);
+  color: #fff;
+}
+.header h1 {
+  font-family: "The Historia Demo", sans-serif;
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 1.4;
+  background: linear-gradient(to top, #e0f6ff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 1rem;
+  user-select: none;
+  font-weight: 800;
+  letter-spacing: 0.4rem;
+}
+.header h5 {
+  text-align: center;
+  font-family: "Redwing";
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 2rem;
+  padding-top: 5rem;
+}
+.image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.image img {
+  padding: 0.8rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2rem;
+  filter: grayscale(100%);
+}
+.about-me {
+  max-width: 100%;
+  text-align: center;
+}
+.about-me h1 {
+  padding-top: 2rem;
+  font-family: "Roboto ", sans-serif;
+  text-align: center;
+  font-size: 5rem;
+  opacity: 0.7;
+}
+.about-me h6 {
+  font-size: 2rem;
+  text-align: center;
+  vertical-align: top;
+}
+.about-me p {
+    text-align: left;
+    padding-top: 1rem;
+    line-height: 2rem;
+}
