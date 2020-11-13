@@ -65,15 +65,30 @@ body {
   font-family: "Roboto ", sans-serif;
   text-align: center;
   font-size: 5rem;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 .about-me h6 {
   font-size: 2rem;
   text-align: center;
-  vertical-align: top;
+  margin-top: -67px;
+  padding-bottom: 3rem;
+  font-weight: 400;
 }
 .about-me p {
     text-align: left;
     padding-top: 1rem;
     line-height: 2rem;
 }
+.about-me p::first-letter{
+    font-size: 2rem;
+}
+.about-me div{
+    display: inline-block;
+    padding: .2rem;
+}
+.social-media {
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.social-media a{padding: .1rem;}
+.fa-youtube, .fa-instagram{color:red}
